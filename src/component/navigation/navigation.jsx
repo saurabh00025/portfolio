@@ -8,7 +8,7 @@ const navigation = () => {
     return (
      <nav className='navbar'>
       <div className='navbar__main'>
-        <Link to = "/" className="navname text-2xl"> Saurabh? </Link>
+        <Link to = "/" className="navname text-2xl"> Saurabh! </Link>
         <ul className='navbar__list--desktop'>
           <li><Link to='/' class = "hover:text-green-300">Home</Link></li>
           <li><Link to='projects' class = "hover:text-green-300">Projects</Link></li>
