@@ -1,0 +1,43 @@
+.fotter {
+    margin: 0px auto 20px auto;
+    padding: 10px;
+    position: relative;
+    width: 90%;
+    max-width: 1200px;
+  }
+  
+  .fotter__head {
+    color: #aeaeb7;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 20px;
+    font-family: cursive;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .fotter__head {
+      font-size: 1.2rem;
+    }
+  }
+  
+  .bottom-container {
+    width: 600px;
+    height: 400px;
+    margin-left: 25%;
+  }
+  
+  @media screen and (max-width: 1100px) {
+    .bottom-container {
+      margin-left: 10%;
+      width: 400px;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .bottom-container {
+      margin-left: 10%;
+      width: 300px;
+      height: 400px;
+    }
+  }
+  

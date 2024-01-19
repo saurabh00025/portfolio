@@ -1,0 +1,127 @@
+.intro {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 120px 0 100px 0;
+    width: 90%;
+    max-width: 1100px;
+    
+  }
+  
+  .intro__image {
+    position: relative;
+    width: 400px;
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    padding: 0px 60px 0px 0px;
+  }
+  
+  .details p {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: #93939f;
+    padding: 15px 0 10px 0;
+  }
+  
+  .intro__desc {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    width: 650px;
+    margin-left: 70px;
+  }
+  
+  .intro__head {
+    color: #aeaeb7;
+    font-size: 3.3rem;
+    margin: 10px 0;
+    font-weight: 600;
+    font-family: cursive;
+  }
+  .intro__text {
+    margin: 0;
+    font-size: 1.7rem;
+    color: #c7c7cc;
+    font-weight: 600;
+  }
+  .intro__aboutLink {
+    color: #0c0c0c;
+    border: 1px solid #0a0a0a;
+    padding: 6px 16px;
+    font-size: 0.875rem;
+    min-width: 64px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-decoration: none;
+    max-width: 170px;
+    text-align: center;
+    display: inline-block;
+    margin: 50px 0 20px 0;
+    transition: 0.3s;
+    background-color: #8bbd18;
+  }
+  .intro__aboutLink:hover {
+    background: rgba(238, 238, 238, 0.603);
+  }
+  @media screen and (max-width: 1100px) {
+    .intro {
+      grid-template-columns: 100%;
+      padding: 50px 0 100px 0;
+    }
+    .intro__image {
+      margin: 0 auto;
+      order: 2;
+    }
+    .intro__desc {
+      box-sizing: border-box;
+      width: 100%;
+      order: 1;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .intro__image {
+      width: 290px;
+      height: 290px;
+      padding: 0px 0px;
+    }
+  
+    .intro__desc {
+      margin: 0;
+    }
+    .intro__head {
+      font-size: 2.4rem;
+    }
+    .intro__text {
+      font-size: 1.5rem;
+    }
+    .intro__aboutLink {
+      font-size: 1.2rem;
+    }
+  }
+  
+  .about-container {
+    width: 400px;
+    height: 500px;
+  }
+  
+  @media screen and (max-width: 1100px) {
+    .about-container {
+      margin-left: 20%;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .about-container {
+      margin-left: 5%;
+      width: 310px;
+      height: 350px;
+    }
+  }
+  
