@@ -31,7 +31,7 @@ const contact = () => {
                 <div className="contact__info">
                     <h2 className="project__title">Saurabh Maurya</h2>
                         
-                    <p className="contact__text">I am a final Year Student at MNNIT Allahabad.</p>
+                    <p className="contact__text ">I'm a final Year Student at MNNIT Allahabad</p>
                     <div ref={container}></div>
                     <ul className='contact__social'>
                     <a href="https://www.linkedin.com/in/saurabh-maurya-176155229/" target="_blank" rel="noreferrer"><GrLinkedinOption /></a>
