@@ -7,7 +7,7 @@ import Project from './component/project/project.jsx';
 import Contact from './component/contact/contact.jsx';
 import Welcome from './component/welcome/welcome.jsx';
 import Footer from './component/footer/footer.jsx';
-import ScrollToTop from './component/scrollToTop.jsx';
+import ScrollToTop from './component/scroll_to_top.jsx';
 const App = () => {
   const [loading, setLoading] = useState(true);
 
