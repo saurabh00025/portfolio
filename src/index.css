@@ -8,6 +8,10 @@
   background-color: #7a1420;
 }
 
+body {
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
 .loading-container {
   width: 600px;
   height: 600px;
