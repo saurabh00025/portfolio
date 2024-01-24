@@ -6,17 +6,17 @@
   .contact__input {
     width: 100%;
     box-sizing: border-box;
-    color: #93939f;
+    color: #ffffff;
     font-size: 1.2rem;
     background-color: transparent;
-    border: 2px solid #10b56e;
+    border: 2px solid #ffffff;
     padding: 20px 10px;
     border-radius: 8px;
     margin-bottom: 30px;
     outline: none;
   }
   ::placeholder {
-    color: #93939f;
+    color: #ffffff;
   }
   .contact__message {
     margin: 20px 30px;
@@ -27,8 +27,8 @@
     display: inline-block;
   }
   .contact__message--success {
-    border: 2px solid #10b56e;
-    color: #93939f;
+    border: 2px solid #0caf69;
+    color: #fbfbff;
   }
   .contact__message--error {
     border: 2px solid #ff4d4d;

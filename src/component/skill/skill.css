@@ -1,3 +1,25 @@
+.bgskill {
+  position: relative;
+  background-image: url('./6.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.bgskill::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(33, 33, 34, 0.582);
+  z-index: -1;
+  pointer-events: none;
+}
+
 .skill {
     grid-template-columns: auto auto;
     margin: 0 200px;

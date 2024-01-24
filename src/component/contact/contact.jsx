@@ -24,6 +24,7 @@ const contact = () => {
     };
   } , []);
     return (
+      <div class = 'bg'>
         <div className='contact' id='contact'>
             <h1 className='contact__heading'>Contact</h1>
 
@@ -48,6 +49,7 @@ const contact = () => {
                     <Form />
                 </div>
             </div>
+        </div>
         </div>
     )
 }

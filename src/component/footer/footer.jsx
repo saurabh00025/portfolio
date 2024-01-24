@@ -20,11 +20,12 @@ const footer = () => {
       }, []);
 
     return (
-        
+        <div class = 'bgfooter'>
         <div className='fotter'>
         <div className="bottom-container" ref={container}></div>
-       <h3 className='fotter__head'> @ 2024 | Saurabh Maurya</h3>
+        <h3 className='fotter__head'> @ 2024 | Saurabh Maurya</h3>
         </div> 
+      </div>
     
     )
 }

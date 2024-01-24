@@ -26,6 +26,7 @@ const home = () => {
   
   return (
     <>
+    <div class = 'bghome'>
     <div className="intro">
       <div className="about-container" ref={container}></div>
 
@@ -40,6 +41,7 @@ const home = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
     <Project/>
     <Skill/>

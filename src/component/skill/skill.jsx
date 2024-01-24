@@ -16,6 +16,7 @@ import pm from './images/postman.png';
 import redux from './images/redux.svg';
 const skill = () => {
   return (
+    <div class = 'bgskill'>
     <div className="skill" id='skills'>
       <h1 className=' skill__heading'>My Tech Stack</h1>
       <div className="skill__look">
@@ -103,6 +104,7 @@ const skill = () => {
             </Zoom>
             </div>
         </div>
+      </div>
       </div>
   );
 };

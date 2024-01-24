@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import Lottie from 'lottie-web';
 import animationData from './welcome.json';
+import './welcome.css';
 
 const welcome = () => {
     const container = useRef(null);
@@ -18,8 +19,12 @@ const welcome = () => {
       };
     }, []);
     return (
-        <div className="loading-container w-1/3 mx-auto my-auto py-32" ref={container}></div>
+        <div class = 'bgwelcome'>
+            <div className="flex items-center justify-center h-screen">
+                <div className="w-1/3 py-32" ref={container}></div>
+            </div>
 
+        </div>
     );
 }
 

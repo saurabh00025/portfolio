@@ -1,5 +1,5 @@
 import Project from './projectComp';
-import port from './portfolio.png';
+import port from './portfolio1.png';
 import vlog from './vlog.png';
 import furniture from './furniture.png';
 import bb from './blood bank.png';
@@ -7,9 +7,9 @@ import bb from './blood bank.png';
 const project = () => {
     
     return (
+        <div class = 'bgproject'>
         <div className='projects' id='projects'>
             <h1 className='section__heading'>Projects</h1>
-           {/* <ScrollToTop/> */}
             <div className="projects__projectCont">
 
             
@@ -58,13 +58,14 @@ const project = () => {
              bringing animations to life using Lottie-Web. This tech stack ensures a seamless blend of 
              performance, style, and dynamic user engagement for an impactful portfolio experience."
              langs={['React Js','Vite Js','Bootstrap','Lottie-Animation']}
-             liveLink=""
+             liveLink="https://saurabh-maurya.vercel.app/"
              githubLink="https://github.com/saurabh00025/portfolio" 
              pic = {port}
              />
 
             </div>
         </div>
+      </div>
   )
 }
 

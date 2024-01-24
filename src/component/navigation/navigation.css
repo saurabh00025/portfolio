@@ -11,7 +11,7 @@
   .navbar__main {
     display: flex;
     max-width: 1200px;
-    margin: 8px 150px;
+    margin: 8px 10%;
     justify-content: space-between;
     align-items: center;
     background-color: #091c34;

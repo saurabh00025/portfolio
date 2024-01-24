@@ -1,3 +1,24 @@
+.bgfooter {
+  position: relative;
+  background-image: url('./10.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.bgfooter::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(33, 33, 34, 0.582);
+  z-index: -1;
+  pointer-events: none;
+}
 .fotter {
     margin: 0px auto 20px auto;
     padding: 10px;
@@ -7,7 +28,7 @@
   }
   
   .fotter__head {
-    color: #aeaeb7;
+    color: #ffffff;
     font-size: 1.5rem;
     text-align: center;
     font-weight: 400;
