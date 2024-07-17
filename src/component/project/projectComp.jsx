@@ -25,7 +25,7 @@ const Project = (props) => {
                 }
                 </div>
                 <div className='project__links'>
-                    { props.liveLink && <a href={props.liveLink}><FaLink /></a>}
+                    { props.liveLink && <a href={props.liveLink} target='_blank'><FaLink /></a>}
                     <a href={props.githubLink}><FaGithub /></a>
                 </div>
             </div>

@@ -2,7 +2,7 @@ import Project from './projectComp';
 import port from './portfolio1.png';
 import vlog from './vlog.png';
 import furniture from './furniture.png';
-import bb from './blood bank.png';
+import bb from './Anokhi Pehel.png';
 
 const project = () => {
     
@@ -13,14 +13,14 @@ const project = () => {
             <div className="projects__projectCont">
 
             
-            <Project title="Blood Bank"
-             desc="Developed a dynamic Blood Bank Website leveraging advanced technologies such as JavaScript,
-              React.js, Node.js, Express.js, and MongoDB. Key features include seamless user authentication,
-              ensuring secure access with role-based permissions. The platform streamlines blood availability 
-              searches, incorporating hospital blood bank records for an efficient and user-centric experience."
-             langs={['React Js','Redux','Node JS','Mongo DB','Express','Postman']}
-             liveLink=""
-             githubLink="https://github.com/saurabh00025/blood-bank-app"
+            <Project title="Anokhi Pehel"
+             desc="Developed the Anokhi Pehel website exclusively for educators to manage free education
+              for underprivileged students. Features include secure login, student enrollment, 
+              attendance tracking, performance monitoring, and class schedule management, enabling 
+              educators to streamline administrative tasks and provide personalized attention to students."
+             langs={['React Js','Redux','Node JS','Mongo DB','Express JS','Javascript']}
+             liveLink="https://anokhi-pehel.azurewebsites.net/"
+             githubLink="https://github.com/saurabh00025/Anokhi-Pehel"
              pic={bb}
              />
 
