@@ -19,7 +19,7 @@ const App = () => {
 
   return (
     <>
-      {/* {loading ? <Welcome /> : ( */}
+      {loading ? <Welcome /> : (
         <Router>
           <ScrollToTop/>
           <Navigation />
@@ -33,7 +33,7 @@ const App = () => {
             <Route path= "/footer" element = {<Footer/>}/>
           </Routes>
         </Router>
-      {/* )} */}
+       )}
     </>
   );
 };
